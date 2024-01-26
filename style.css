@@ -1,0 +1,44 @@
+body {
+    background-color: #212121;
+    color: rgb(220, 217, 217);
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    position: relative;
+}
+
+.input-div {
+    /* display: grid; */
+    display: flexbox;
+}
+
+#height {
+    height: 40px;
+    width: 180px;
+    margin: 10px;
+    border-radius: 13px;
+}
+
+#weight {
+    height: 40px;
+    width: 180px;
+    margin: 20px;
+    border-radius: 13px;
+}
+
+#button {
+    height: 30px;
+    width: 140px;
+    margin-left: 100px;
+    border-radius: 13px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#results {
+    font-size: 40px;
+    color: greenyellow;
+    /* background-color: antiquewhite; */
+}
